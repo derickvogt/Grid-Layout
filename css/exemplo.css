@@ -21,17 +21,19 @@ body{
     /* transition: 400ms box-shadow, 
     400ms background-color,
     400ms border-color; */
-    transition: 350ms all;
+    background: rgb(255, 255, 255);
+    transition: 400ms all;
     border-radius: 5px;
     height: 200px;
 }
 
 .box:hover{
-    box-shadow: 3px 3px 3px #CCC;
+    background: rgb(237, 237, 237);
+    box-shadow: 2px 3px 6px rgb(84, 84, 84);
     text-shadow: 3px 3px 4px #aaa;
     border: 1px solid #000;
     /* font-size: 20px; */
-    background: linear-gradient(#fff 40%, #ccc);
+    /* background: linear-gradient(#fff 40%, #ccc); */
     transform: scale(1.1);
 }
 
