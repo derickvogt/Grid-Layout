@@ -1,0 +1,64 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.grid{
+    margin: 3em auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+
+.box{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 23%;
+    padding: 10px 0px;
+    margin: 1%;
+    /* transition: 400ms box-shadow, 
+    400ms background-color,
+    400ms border-color; */
+    transition: 350ms all;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.box:hover{
+    box-shadow: 3px 3px 3px #CCC;
+    text-shadow: 3px 3px 4px #aaa;
+    border: 1px solid #000;
+    /* font-size: 20px; */
+    background: linear-gradient(#fff 40%, #ccc);
+    transform: scale(1.1);
+}
+
+.box img{
+    height: 100px;
+    width: 100px;
+}
+
+.box:nth-child(4n){
+    margin-right: 0px;
+}
+
+.box:nth-child(4n+1){
+    margin-left: 0px;
+}
+
+.grid-link{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000; 
+}
+
+.grid-link h2{
+    font-weight: bold;
+}
+
