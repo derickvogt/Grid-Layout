@@ -18,11 +18,8 @@ body{
     width: 23%;
     padding: 10px 0px;
     margin: 1%;
-    /* transition: 400ms box-shadow, 
-    400ms background-color,
-    400ms border-color; */
     background: rgb(255, 255, 255);
-    transition: 400ms all;
+    transition: 400ms all ease-in-out;
     border-radius: 5px;
     height: 200px;
 }
@@ -32,8 +29,6 @@ body{
     box-shadow: 2px 3px 6px rgb(84, 84, 84);
     text-shadow: 3px 3px 4px #aaa;
     border: 1px solid #000;
-    /* font-size: 20px; */
-    /* background: linear-gradient(#fff 40%, #ccc); */
     transform: scale(1.1);
 }
 
@@ -64,3 +59,24 @@ body{
     font-weight: bold;
 }
 
+@media screen and (max-width: 480px){
+    .grid{
+        flex-direction: column;
+        align-items:  center;
+    }
+    
+    .box{
+        margin: 5px auto;
+        width: 100%;
+        transition: none;
+    }
+
+    .box:hover:disabled{
+        background: green;
+    }
+
+    /* .box:active{
+        background: rgb(163, 163, 163);
+        box-shadow: 2px 3px 6px rgb(84, 84, 84);
+    } */
+}
