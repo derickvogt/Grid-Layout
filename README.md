@@ -17,7 +17,6 @@ Grid Layout é um projeto simples para colocar prática conceitos do flexbox no 
 
 * HTML 5
 * CSS 3
-* JavaScript
 
 ## 🚀 Como Executar o Projeto.
 
