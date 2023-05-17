@@ -11,7 +11,7 @@ Grid Layout é um projeto simples para colocar prática conceitos do flexbox no 
 
  ## Demonstração
 
-![](/images/screenshot1.gif)
+![](/img/demonstracao/demonstracao.gif)
 
 ## 🤖 Tecnologias Utilizadas
 
